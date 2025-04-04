@@ -51,8 +51,20 @@
 <svg id="mdi:minus-circle-outline">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-minus-circle-outline" viewBox="0 0 24 24"><path d="M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M7,13H17V11H7" /></svg>
 </svg>
+<svg id="mdi:play-pause">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-play-pause" viewBox="0 0 24 24"><path d="M3,5V19L11,12M13,19H16V5H13M18,5V19H21V5" /></svg>
+</svg>
 <svg id="mdi:transfer">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-transfer" viewBox="0 0 24 24"><path d="M8 4A2 2 0 0 0 6 6V10H8V6H16V9H13.5L17 12.5L20.5 9H18V6A2 2 0 0 0 16 4H8M3 12V14H11V12H3M3 15V17H11V15H3M13 15V17H21V15H13M3 18V20H11V18H3M13 18V20H21V18H13Z" /></svg>
+</svg>
+<svg id="mdi:volume-high">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-high" viewBox="0 0 24 24"><path d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" /></svg>
+</svg>
+<svg id="mdi:volume-low">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-low" viewBox="0 0 24 24"><path d="M7,9V15H11L16,20V4L11,9H7Z" /></svg>
+</svg>
+<svg id="mdi:volume-off">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-off" viewBox="0 0 24 24"><path d="M12,4L9.91,6.09L12,8.18M4.27,3L3,4.27L7.73,9H3V15H7L12,20V13.27L16.25,17.53C15.58,18.04 14.83,18.46 14,18.7V20.77C15.38,20.45 16.63,19.82 17.68,18.96L19.73,21L21,19.73L12,10.73M19,12C19,12.94 18.8,13.82 18.46,14.64L19.97,16.15C20.62,14.91 21,13.5 21,12C21,7.72 18,4.14 14,3.23V5.29C16.89,6.15 19,8.83 19,12M16.5,12C16.5,10.23 15.5,8.71 14,7.97V10.18L16.45,12.63C16.5,12.43 16.5,12.21 16.5,12Z" /></svg>
 </svg>
 </defs>/* end glyphs */
 <style>/* inherit to force styles through use tags */
@@ -539,6 +551,188 @@ rect.held, rect.combo.held {
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="742" y="74" width="28" height="26" class="combo"/>
 <text x="756" y="87" class="combo tap">Sft+9</text>
+</g>
+<g class="combo combopos-2">
+<path d="M196,91 l37,0" class="combo"/>
+<path d="M196,91 l-37,0" class="combo"/>
+<rect rx="6" ry="6" x="182" y="78" width="28" height="26" class="combo"/>
+<text x="196" y="91" class="combo tap">Alt+8</text>
+</g>
+<g class="combo combopos-3">
+<path d="M784,91 l-37,0" class="combo"/>
+<path d="M784,91 l37,0" class="combo"/>
+<rect rx="6" ry="6" x="770" y="78" width="28" height="26" class="combo"/>
+<text x="784" y="91" class="combo tap">Alt+9</text>
+</g>
+<g class="combo combopos-4">
+<path d="M168,98 l65,-5" class="combo"/>
+<path d="M168,98 l-65,5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="85" width="28" height="26" class="combo"/>
+<text x="168" y="98" class="combo tap">
+<tspan x="168" dy="-0.6em">Alt+</tspan><tspan x="168" dy="1.2em">Sft+8</tspan>
+</text>
+</g>
+<g class="combo combopos-5">
+<path d="M812,98 l-65,-5" class="combo"/>
+<path d="M812,98 l65,5" class="combo"/>
+<rect rx="6" ry="6" x="798" y="85" width="28" height="26" class="combo"/>
+<text x="812" y="98" class="combo tap">Alt+9</text>
+</g>
+<g class="combo combopos-6">
+<path d="M252,91 l-37,-4" class="combo"/>
+<path d="M252,91 l37,4" class="combo"/>
+<rect rx="6" ry="6" x="238" y="78" width="28" height="26" class="combo"/>
+<text x="252" y="91" class="combo tap">Sft+`</text>
+</g>
+<g class="combo combopos-7">
+<path d="M728,91 l37,-4" class="combo"/>
+<path d="M728,91 l-37,4" class="combo"/>
+<rect rx="6" ry="6" x="714" y="78" width="28" height="26" class="combo"/>
+<text x="728" y="91" class="combo tap">Sft+`</text>
+</g>
+<g class="combo combopos-8">
+<path d="M252,35 l37,4" class="combo"/>
+<path d="M252,35 l-37,-4" class="combo"/>
+<rect rx="6" ry="6" x="238" y="22" width="28" height="26" class="combo"/>
+<text x="252" y="35" class="combo tap">Sft+0</text>
+</g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="266" y="81" width="28" height="26" class="combo"/>
+<text x="280" y="94" class="combo tap">Sft+\</text>
+</g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
+<text x="224" y="143" class="combo tap">Sft+2</text>
+</g>
+<g class="combo combopos-11">
+<path d="M196,147 l37,0" class="combo"/>
+<path d="M196,147 l-37,0" class="combo"/>
+<rect rx="6" ry="6" x="182" y="134" width="28" height="26" class="combo"/>
+<text x="196" y="147" class="combo tap">Sft+3</text>
+</g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="98" y="29" width="28" height="26" class="combo"/>
+<text x="112" y="42" class="combo tap">
+<tspan x="112" dy="-0.6em">AltGr</tspan><tspan x="112" dy="1.2em">+]</tspan>
+</text>
+</g>
+<g class="combo combopos-13">
+<rect rx="6" ry="6" x="210" y="18" width="28" height="26" class="combo"/>
+<text x="224" y="31" class="combo tap">-</text>
+<text x="224" y="20" class="combo shifted">_</text>
+</g>
+<g class="combo combopos-14">
+<path d="M196,35 l37,0" class="combo"/>
+<path d="M196,35 l-37,0" class="combo"/>
+<rect rx="6" ry="6" x="182" y="22" width="28" height="26" class="combo"/>
+<text x="196" y="35" class="combo tap">Sft+7</text>
+</g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="154" y="18" width="28" height="26" class="combo"/>
+<text x="168" y="31" class="combo tap">
+<tspan x="168" dy="-0.6em">Sft+</tspan><tspan x="168" dy="1.2em">Alt+7</tspan>
+</text>
+</g>
+<g class="combo combopos-16">
+<path d="M213,178 l55,24" class="combo"/>
+<path d="M213,178 l-55,-24" class="combo"/>
+<rect rx="6" ry="6" x="199" y="165" width="28" height="26" class="combo"/>
+<text x="213" y="178" class="combo tap">1</text>
+</g>
+<g class="combo combopos-17">
+<path d="M241,175 l30,23" class="combo"/>
+<path d="M241,175 l-30,-23" class="combo"/>
+<rect rx="6" ry="6" x="227" y="162" width="28" height="26" class="combo"/>
+<text x="241" y="175" class="combo tap">2</text>
+</g>
+<g class="combo combopos-18">
+<rect rx="6" ry="6" x="255" y="165" width="28" height="26" class="combo"/>
+<text x="269" y="178" class="combo tap">3</text>
+</g>
+<g class="combo combopos-19">
+<path d="M213,150 l58,47" class="combo"/>
+<path d="M213,150 l-58,-47" class="combo"/>
+<rect rx="6" ry="6" x="199" y="137" width="28" height="26" class="combo"/>
+<text x="213" y="150" class="combo tap">4</text>
+</g>
+<g class="combo combopos-20">
+<path d="M241,147 l34,47" class="combo"/>
+<path d="M241,147 l-34,-47" class="combo"/>
+<rect rx="6" ry="6" x="227" y="134" width="28" height="26" class="combo"/>
+<text x="241" y="147" class="combo tap">5</text>
+<text x="241" y="136" class="combo shifted">%</text>
+</g>
+<g class="combo combopos-21">
+<path d="M269,150 l12,41" class="combo"/>
+<path d="M269,150 l-12,-41" class="combo"/>
+<rect rx="6" ry="6" x="255" y="137" width="28" height="26" class="combo"/>
+<text x="269" y="150" class="combo tap">6</text>
+</g>
+<g class="combo combopos-22">
+<path d="M213,122 l61,73" class="combo"/>
+<path d="M213,122 l-61,-73" class="combo"/>
+<rect rx="6" ry="6" x="199" y="109" width="28" height="26" class="combo"/>
+<text x="213" y="122" class="combo tap">7</text>
+<text x="213" y="111" class="combo shifted">&amp;</text>
+</g>
+<g class="combo combopos-23">
+<path d="M241,119 l36,74" class="combo"/>
+<path d="M241,119 l-36,-74" class="combo"/>
+<rect rx="6" ry="6" x="227" y="106" width="28" height="26" class="combo"/>
+<text x="241" y="119" class="combo tap">8</text>
+<text x="241" y="108" class="combo shifted">*</text>
+</g>
+<g class="combo combopos-24">
+<path d="M269,122 l13,69" class="combo"/>
+<path d="M269,122 l-13,-69" class="combo"/>
+<rect rx="6" ry="6" x="255" y="109" width="28" height="26" class="combo"/>
+<text x="269" y="122" class="combo tap">9</text>
+<text x="269" y="111" class="combo shifted">(</text>
+</g>
+<g class="combo combopos-25">
+<path d="M297,125 l-9,65" class="combo"/>
+<path d="M297,125 l9,-65" class="combo"/>
+<rect rx="6" ry="6" x="283" y="112" width="28" height="26" class="combo"/>
+<text x="297" y="125" class="combo tap">0</text>
+<text x="297" y="114" class="combo shifted">)</text>
+</g>
+<g class="combo combopos-26">
+<rect rx="6" ry="6" x="742" y="130" width="28" height="26" class="combo"/>
+<text x="756" y="143" class="combo tap">Sft+/</text>
+</g>
+<g class="combo combopos-27">
+<rect rx="6" ry="6" x="798" y="130" width="28" height="26" class="combo"/>
+<text x="812" y="143" class="combo tap">Sft+.</text>
+</g>
+<g class="combo combopos-28">
+<path d="M784,147 l37,0" class="combo"/>
+<path d="M784,147 l-37,0" class="combo"/>
+<rect rx="6" ry="6" x="770" y="134" width="28" height="26" class="combo"/>
+<text x="784" y="147" class="combo tap">Sft+,</text>
+</g>
+<g class="combo combopos-29">
+<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
+<text x="168" y="143" class="combo tap">Alt+2</text>
+</g>
+<g class="combo combopos-30">
+<rect rx="6" ry="6" x="266" y="137" width="28" height="26" class="combo"/>
+<text x="280" y="150" class="combo tap">Sft+6</text>
+</g>
+<g class="combo combopos-31">
+<path d="M168,154 l65,-5" class="combo"/>
+<path d="M168,154 l-65,5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="141" width="28" height="26" class="combo"/>
+<text x="168" y="154" class="combo tap">Sft+5</text>
+</g>
+<g class="combo combopos-32">
+<path d="M252,147 l37,4" class="combo"/>
+<path d="M252,147 l-37,-4" class="combo"/>
+<rect rx="6" ry="6" x="238" y="134" width="28" height="26" class="combo"/>
+<text x="252" y="147" class="combo tap">Alt+7</text>
+</g>
+<g class="combo combopos-33">
+<rect rx="6" ry="6" x="266" y="81" width="28" height="26" class="combo"/>
+<text x="280" y="94" class="combo tap">Alt+=</text>
 </g>
 </g>
 </g>
@@ -1717,25 +1911,27 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(728, 91)" class="key trans keypos-23">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(728, 91)" class="key keypos-23">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">RW</text>
 </g>
-<g transform="translate(784, 84)" class="key trans keypos-24">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(784, 84)" class="key keypos-24">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<use href="#mdi:volume-low" xlink:href="#mdi:volume-low" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:volume-low"/>
 </g>
-<g transform="translate(840, 91)" class="key trans keypos-25">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(840, 91)" class="key keypos-25">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<use href="#mdi:volume-high" xlink:href="#mdi:volume-high" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:volume-high"/>
 </g>
-<g transform="translate(896, 105)" class="key trans keypos-26">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(896, 105)" class="key keypos-26">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 86%">FAST</tspan><tspan x="0" dy="1.2em" style="font-size: 86%">FORWARD</tspan>
+</text>
 </g>
 <g transform="translate(952, 105)" class="key trans keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1792,10 +1988,10 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(784, 140)" class="key trans keypos-38">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(784, 140)" class="key keypos-38">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<use href="#mdi:volume-off" xlink:href="#mdi:volume-off" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:volume-off"/>
 </g>
 <g transform="translate(840, 147)" class="key trans keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1832,10 +2028,10 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(695, 209) rotate(-12.0)" class="key trans keypos-46">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(695, 209) rotate(-12.0)" class="key keypos-46">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:play-pause"/>
 </g>
 <g transform="translate(756, 203)" class="key trans keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
