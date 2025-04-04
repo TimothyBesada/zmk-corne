@@ -133,60 +133,60 @@
         LAYER1 {
             display-name = "LAYER1";
             bindings = <
-&trans  &kp N1           &kp N2          &kp N3        &kp N4        &kp N5                                         &mmv MOVE_UP                     &kp N6           &kp N7           &kp N8           &kp N9           &kp N0    &kp BSPC
-&trans  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp HOME  &kp PG_UP
-&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &trans        &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
-                                         &trans        &trans        &trans                                                                          &kp INS          &kp DEL          &trans
+&trans        &trans            &trans        &trans        &trans                &kp LG(X)                  &none           &trans      &trans    &trans         &trans        &trans     &trans
+&kp TAB       &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_SHIFT        &kp LG(C)           &none  &none  &none    &kp LG(A)   &kp LEFT  &kp DOWN       &kp UP_ARROW  &kp RIGHT  &trans
+&kp LC(SEMI)  &kp LG(A)         &kp LG(X)     &kp LG(C)     &kp LG(LS(NUMBER_4))  &kp LG(V)  &none           &none           &kp INSERT  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &trans
+                                              &trans        &none                 &trans                                     &trans      &trans    &trans                                          
             >;
         };
 
         LAYER2 {
             display-name = "LAYER2";
             bindings = <
-&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&trans  &bt BT_CLR    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                                    &trans     &trans     &kp SPACE                                                             &kp RET    &trans     &trans
+&kp NON_US_BACKSLASH   &kp COMMA   &kp N7        &kp N8         &kp N9        &kp N0                     &none           &trans  &trans  &trans   &trans   &trans   &trans
+&kp LS(RIGHT_BRACKET)  &kp DOT     &kp NUMBER_4  &kp N5         &kp NUMBER_6  &kp MINUS           &none  &none  &none    &trans  &trans  &trans   &trans   &trans   &trans
+&kp RA(RIGHT_BRACKET)  &kp GRAVE   &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp FSLH   &none           &none           &trans  &trans  &trans   &trans   &trans   &trans
+                                                 &kp LS(EQUAL)  &trans        &trans                                     &trans  &none   &trans
             >;
         };
 
         LAYER3 {
             display-name = "LAYER3";
             bindings = <
-&studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
-&trans          &trans      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
-&trans          &sys_reset  &trans     &bootloader  &trans     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
-                                       &trans       &trans     &trans                                                                   &trans       &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &none           &trans  &trans  &trans   &trans   &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans           &none  &none  &none    &trans  &trans  &trans   &trans   &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &none           &none           &trans  &trans  &trans   &trans   &trans   &trans
+                        &trans  &trans  &trans                                  &none   &trans  &trans                           
             >;
         };
 
         LAYER4 {
             display-name = "LAYER4";
             bindings = <
-&studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
-&trans          &trans      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
-&trans          &sys_reset  &trans     &bootloader  &trans     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
-                                       &trans       &trans     &trans                                                                   &trans       &trans     &trans
+&kp LS(LA(LG(V)))             &kp LS(LA(LC(LG(NUMBER_1))))  &kp LS(LA(LC(LG(NUMBER_2))))  &kp LS(LA(LC(LG(NUMBER_3))))  &kp LS(LA(LC(LG(NUMBER_4))))  &kp LS(LA(LC(LG(N5))))                    &none           &trans                &trans                    &trans                          &trans                        &trans                     &trans                
+&kp LS(LA(LG(N0)))            &kp LS(LA(LG(NUMBER_1)))      &kp LS(LA(LG(NUMBER_2)))      &kp LS(LA(LG(NUMBER_3)))      &kp LS(LA(LG(NUMBER_4)))      &kp LS(LA(LG(NUMBER_5)))           &none  &none  &none    &kp LS(LA(LG(LEFT)))  &kp LS(LA(LC(LG(LEFT))))  &kp LC(LG(LA(LS(DOWN_ARROW))))  &kp LS(LA(LG(LC(UP_ARROW))))  &kp LS(LA(LC(LG(RIGHT))))  &kp LS(LA(LG(RIGHT))) 
+&kp LS(LA(LG(LC(NUMBER_6))))  &kp LS(LA(LC(LG(N0))))        &kp LS(LA(LG(NUMBER_6)))      &kp LS(LA(LG(N7)))            &kp LS(LA(LG(N8)))            &kp LS(LA(LG(N9)))        &none           &none           &kp LS(LA(LG(N)))     &kp LS(LC(LA(LG(M))))     &kp LS(LA(LG(C)))               &kp LS(LA(LC(LG(R))))         &trans                     &trans                
+                                                                                          &trans                        &trans                        &none                                                     &kp LG(W)             &kp LG(LA(H))             &kp LG(H)                                                                                                      
             >;
         };
 
         LAYER5 {
             display-name = "LAYER5";
             bindings = <
-&studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
-&trans          &trans      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
-&trans          &sys_reset  &trans     &bootloader  &trans     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
-                                       &trans       &trans     &trans                                                                   &trans       &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &none           &trans  &trans  &trans   &trans   &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans           &none  &none  &none    &trans  &trans  &trans   &trans   &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &none           &none           &trans  &trans  &trans   &trans   &trans   &trans
+                        &none   &trans  &trans                                  &trans  &trans  &trans                           
             >;
         };
 
         LAYER6 {
             display-name = "LAYER6";
             bindings = <
-&studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
-&trans          &trans      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
-&trans          &sys_reset  &trans     &bootloader  &trans     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
-                                       &trans       &trans     &trans                                                                   &trans       &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &none           &trans  &trans  &trans   &trans   &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans           &none  &none  &none    &trans  &trans  &trans   &trans   &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &none           &none           &trans  &trans  &trans   &trans   &trans   &trans
+                        &trans  &trans  &trans                                  &trans  &trans  &none                           
             >;
         };
     };
