@@ -224,7 +224,7 @@
             layers = <0>;
         };
 
-        one {
+        n_1 {
             bindings = <&kp NUMBER_1>;
             key-positions = <43 30>;
             timeout-ms = <50>;
@@ -232,7 +232,7 @@
             layers = <0>;
         };
 
-        two {
+        n_2 {
             bindings = <&kp NUMBER_2>;
             key-positions = <43 31>;
             timeout-ms = <50>;
@@ -240,7 +240,7 @@
             layers = <0>;
         };
 
-        three {
+        n_3 {
             bindings = <&kp NUMBER_3>;
             key-positions = <43 32>;
             timeout-ms = <50>;
@@ -248,7 +248,7 @@
             layers = <0>;
         };
 
-        four {
+        n_4 {
             bindings = <&kp NUMBER_4>;
             key-positions = <43 15>;
             timeout-ms = <50>;
@@ -256,7 +256,7 @@
             layers = <0>;
         };
 
-        five {
+        n_5 {
             bindings = <&kp N5>;
             key-positions = <43 16>;
             timeout-ms = <50>;
@@ -264,7 +264,7 @@
             layers = <0>;
         };
 
-        six {
+        n_6 {
             bindings = <&kp NUMBER_6>;
             key-positions = <17 43>;
             timeout-ms = <50>;
@@ -272,7 +272,7 @@
             layers = <0>;
         };
 
-        seven {
+        n_7 {
             bindings = <&kp N7>;
             key-positions = <43 2>;
             timeout-ms = <50>;
@@ -280,7 +280,7 @@
             layers = <0>;
         };
 
-        eight {
+        n_8 {
             bindings = <&kp N8>;
             key-positions = <43 3>;
             timeout-ms = <50>;
@@ -288,7 +288,7 @@
             layers = <0>;
         };
 
-        nine {
+        n_9 {
             bindings = <&kp N9>;
             key-positions = <43 4>;
             timeout-ms = <50>;
@@ -296,7 +296,7 @@
             layers = <0>;
         };
 
-        zero {
+        n_0 {
             bindings = <&kp N0>;
             key-positions = <43 5>;
             timeout-ms = <50>;
