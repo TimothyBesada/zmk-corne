@@ -361,8 +361,8 @@
         };
 
         string_literal {
-            bindings = <&kp LA(EQUAL)>;
-            key-positions = <22 23>;
+            bindings = <&kp LS(EQUAL)>;
+            key-positions = <17 18>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
