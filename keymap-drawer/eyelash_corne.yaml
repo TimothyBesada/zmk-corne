@@ -343,3 +343,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+combos:
+- p: [16, 17]
+  k: Sft+8
+  l: [DEFAULT]
+- p: [23, 24]
+  k: Sft+9
+  l: [DEFAULT]
