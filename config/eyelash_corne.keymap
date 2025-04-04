@@ -5,11 +5,7 @@
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include "alias_corne.h"
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/rgb.h>
 
 &mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; };
 
@@ -115,6 +111,262 @@
             require-prior-idle-ms = <75>;
             timeout-ms = <50>;
         };
+
+        left_bracket {
+            bindings = <&kp LA(N8)>;
+            key-positions = <17 15>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        right_bracket {
+            bindings = <&kp LA(N9)>;
+            key-positions = <23 25>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        left_curly {
+            bindings = <&kp LA(LS(N8))>;
+            key-positions = <17 14>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        right_curly {
+            bindings = <&kp LA(N9)>;
+            key-positions = <23 26>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        less_than {
+            bindings = <&kp LS(GRAVE)>;
+            key-positions = <16 18>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        greater_than {
+            bindings = <&kp LS(GRAVE)>;
+            key-positions = <24 22>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        equal {
+            bindings = <&kp LS(N0)>;
+            key-positions = <5 3>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        star {
+            bindings = <&kp LS(BACKSLASH)>;
+            key-positions = <17 18>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        quote {
+            bindings = <&kp LS(NUMBER_2)>;
+            key-positions = <31 32>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        hash {
+            bindings = <&kp LS(NUMBER_3)>;
+            key-positions = <32 30>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        tilde {
+            bindings = <&kp RA(RIGHT_BRACKET)>;
+            key-positions = <1 2>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        plus {
+            bindings = <&kp MINUS>;
+            key-positions = <3 4>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        forward_slash {
+            bindings = <&kp LS(N7)>;
+            key-positions = <4 2>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        backward_slash {
+            bindings = <&kp LS(LA(N7))>;
+            key-positions = <2 3>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        one {
+            bindings = <&kp NUMBER_1>;
+            key-positions = <43 30>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        two {
+            bindings = <&kp NUMBER_2>;
+            key-positions = <43 31>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        three {
+            bindings = <&kp NUMBER_3>;
+            key-positions = <43 32>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        four {
+            bindings = <&kp NUMBER_4>;
+            key-positions = <43 15>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        five {
+            bindings = <&kp N5>;
+            key-positions = <43 16>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        six {
+            bindings = <&kp NUMBER_6>;
+            key-positions = <43 17>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        seven {
+            bindings = <&kp N7>;
+            key-positions = <43 2>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        eight {
+            bindings = <&kp N8>;
+            key-positions = <43 3>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        nine {
+            bindings = <&kp N9>;
+            key-positions = <43 4>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        zero {
+            bindings = <&kp N0>;
+            key-positions = <43 5>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        underscore {
+            bindings = <&kp LS(FSLH)>;
+            key-positions = <37 38>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        colon {
+            bindings = <&kp LS(PERIOD)>;
+            key-positions = <38 39>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        semi_colon {
+            bindings = <&kp LS(COMMA)>;
+            key-positions = <39 37>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        at_sign {
+            bindings = <&kp LA(NUMBER_2)>;
+            key-positions = <30 31>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        ampersand {
+            bindings = <&kp LS(NUMBER_6)>;
+            key-positions = <32 33>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        percent {
+            bindings = <&kp LS(N5)>;
+            key-positions = <32 29>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        pipe {
+            bindings = <&kp LA(N7)>;
+            key-positions = <33 31>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
+
+        string_literal {
+            bindings = <&kp LA(EQUAL)>;
+            key-positions = <17 18>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
+        };
     };
 
     DEFAULT {
@@ -133,60 +385,60 @@
         LAYER1 {
             display-name = "LAYER1";
             bindings = <
-&trans        &trans            &trans        &trans        &trans                &kp LG(X)                  &none           &trans      &trans    &trans         &trans        &trans     &trans
-&kp TAB       &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_SHIFT        &kp LG(C)           &none  &none  &none    &kp LG(A)   &kp LEFT  &kp DOWN       &kp UP_ARROW  &kp RIGHT  &trans
-&kp LC(SEMI)  &kp LG(A)         &kp LG(X)     &kp LG(C)     &kp LG(LS(NUMBER_4))  &kp LG(V)  &none           &none           &kp INSERT  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &trans
-                                              &trans        &none                 &trans                                     &trans      &trans    &trans                                          
+&trans        &trans            &trans        &trans        &trans                &kp LG(X)                  &none         &trans      &trans    &trans         &trans        &trans     &trans
+&kp TAB       &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_SHIFT        &kp LG(C)           &none  &none  &none  &kp LG(A)   &kp LEFT  &kp DOWN       &kp UP_ARROW  &kp RIGHT  &trans
+&kp LC(SEMI)  &kp LG(A)         &kp LG(X)     &kp LG(C)     &kp LG(LS(NUMBER_4))  &kp LG(V)  &none           &none         &kp INSERT  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &trans
+                                              &trans        &none                 &trans                                   &trans      &trans    &trans
             >;
         };
 
         LAYER2 {
             display-name = "LAYER2";
             bindings = <
-&kp NON_US_BACKSLASH   &kp COMMA   &kp N7        &kp N8         &kp N9        &kp N0                     &none           &trans  &trans  &trans   &trans   &trans   &trans
-&kp LS(RIGHT_BRACKET)  &kp DOT     &kp NUMBER_4  &kp N5         &kp NUMBER_6  &kp MINUS           &none  &none  &none    &trans  &trans  &trans   &trans   &trans   &trans
-&kp RA(RIGHT_BRACKET)  &kp GRAVE   &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp FSLH   &none           &none           &trans  &trans  &trans   &trans   &trans   &trans
-                                                 &kp LS(EQUAL)  &trans        &trans                                     &trans  &none   &trans
+&kp NON_US_BACKSLASH   &kp COMMA  &kp N7        &kp N8         &kp N9        &kp N0                     &none         &trans  &trans  &trans  &trans  &trans  &trans
+&kp LS(RIGHT_BRACKET)  &kp DOT    &kp NUMBER_4  &kp N5         &kp NUMBER_6  &kp MINUS           &none  &none  &none  &trans  &trans  &trans  &trans  &trans  &trans
+&kp RA(RIGHT_BRACKET)  &kp GRAVE  &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp FSLH   &none           &none         &trans  &trans  &trans  &trans  &trans  &trans
+                                                &kp LS(EQUAL)  &trans        &trans                                   &trans  &none   &trans
             >;
         };
 
         LAYER3 {
             display-name = "LAYER3";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &none           &trans  &trans  &trans   &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans           &none  &none  &none    &trans  &trans  &trans   &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &none           &none           &trans  &trans  &trans   &trans   &trans   &trans
-                        &trans  &trans  &trans                                  &none   &trans  &trans                           
+&trans  &trans  &trans  &trans  &trans  &trans                  &none         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans           &none  &none  &none  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &none           &none         &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans                                &none   &trans  &trans
             >;
         };
 
         LAYER4 {
             display-name = "LAYER4";
             bindings = <
-&kp LS(LA(LG(V)))             &kp LS(LA(LC(LG(NUMBER_1))))  &kp LS(LA(LC(LG(NUMBER_2))))  &kp LS(LA(LC(LG(NUMBER_3))))  &kp LS(LA(LC(LG(NUMBER_4))))  &kp LS(LA(LC(LG(N5))))                    &none           &trans                &trans                    &trans                          &trans                        &trans                     &trans                
-&kp LS(LA(LG(N0)))            &kp LS(LA(LG(NUMBER_1)))      &kp LS(LA(LG(NUMBER_2)))      &kp LS(LA(LG(NUMBER_3)))      &kp LS(LA(LG(NUMBER_4)))      &kp LS(LA(LG(NUMBER_5)))           &none  &none  &none    &kp LS(LA(LG(LEFT)))  &kp LS(LA(LC(LG(LEFT))))  &kp LC(LG(LA(LS(DOWN_ARROW))))  &kp LS(LA(LG(LC(UP_ARROW))))  &kp LS(LA(LC(LG(RIGHT))))  &kp LS(LA(LG(RIGHT))) 
-&kp LS(LA(LG(LC(NUMBER_6))))  &kp LS(LA(LC(LG(N0))))        &kp LS(LA(LG(NUMBER_6)))      &kp LS(LA(LG(N7)))            &kp LS(LA(LG(N8)))            &kp LS(LA(LG(N9)))        &none           &none           &kp LS(LA(LG(N)))     &kp LS(LC(LA(LG(M))))     &kp LS(LA(LG(C)))               &kp LS(LA(LC(LG(R))))         &trans                     &trans                
-                                                                                          &trans                        &trans                        &none                                                     &kp LG(W)             &kp LG(LA(H))             &kp LG(H)                                                                                                      
+&kp LS(LA(LG(V)))             &kp LS(LA(LC(LG(NUMBER_1))))  &kp LS(LA(LC(LG(NUMBER_2))))  &kp LS(LA(LC(LG(NUMBER_3))))  &kp LS(LA(LC(LG(NUMBER_4))))  &kp LS(LA(LC(LG(N5))))                    &none         &trans                &trans                    &trans                          &trans                        &trans                     &trans
+&kp LS(LA(LG(N0)))            &kp LS(LA(LG(NUMBER_1)))      &kp LS(LA(LG(NUMBER_2)))      &kp LS(LA(LG(NUMBER_3)))      &kp LS(LA(LG(NUMBER_4)))      &kp LS(LA(LG(NUMBER_5)))           &none  &none  &none  &kp LS(LA(LG(LEFT)))  &kp LS(LA(LC(LG(LEFT))))  &kp LC(LG(LA(LS(DOWN_ARROW))))  &kp LS(LA(LG(LC(UP_ARROW))))  &kp LS(LA(LC(LG(RIGHT))))  &kp LS(LA(LG(RIGHT)))
+&kp LS(LA(LG(LC(NUMBER_6))))  &kp LS(LA(LC(LG(N0))))        &kp LS(LA(LG(NUMBER_6)))      &kp LS(LA(LG(N7)))            &kp LS(LA(LG(N8)))            &kp LS(LA(LG(N9)))        &none           &none         &kp LS(LA(LG(N)))     &kp LS(LC(LA(LG(M))))     &kp LS(LA(LG(C)))               &kp LS(LA(LC(LG(R))))         &trans                     &trans
+                                                                                          &trans                        &trans                        &none                                                   &kp LG(W)             &kp LG(LA(H))             &kp LG(H)
             >;
         };
 
         LAYER5 {
             display-name = "LAYER5";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &none           &trans  &trans  &trans   &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans           &none  &none  &none    &trans  &trans  &trans   &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &none           &none           &trans  &trans  &trans   &trans   &trans   &trans
-                        &none   &trans  &trans                                  &trans  &trans  &trans                           
+&trans  &trans  &trans  &trans  &trans  &trans                  &none         &trans  &trans    &trans        &trans           &trans              &trans
+&trans  &trans  &trans  &trans  &trans  &trans           &none  &none  &none  &trans  &kp C_RW  &kp C_VOL_DN  &kp C_VOLUME_UP  &kp C_FAST_FORWARD  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &none           &none         &trans  &trans    &kp C_MUTE    &trans           &trans              &trans
+                        &none   &trans  &trans                                &trans  &kp C_PP  &trans
             >;
         };
 
         LAYER6 {
             display-name = "LAYER6";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &none           &trans  &trans  &trans   &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans           &none  &none  &none    &trans  &trans  &trans   &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &none           &none           &trans  &trans  &trans   &trans   &trans   &trans
-                        &trans  &trans  &trans                                  &trans  &trans  &none                           
+&trans  &trans  &trans  &trans  &trans  &trans                  &none         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans           &none  &none  &none  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &none           &none         &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans                                &trans  &trans  &none
             >;
         };
     };
