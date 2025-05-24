@@ -28,10 +28,10 @@
 
 #define HRM_BEHAVIOR "tap-preferred"
 #define HRM_TAPPING_TERM_MS 180
-#define HRM_REQUIRE_PRIOR_IDLE_MS 100
+#define HRM_REQUIRE_PRIOR_IDLE_MS 80
 #define HRM_QUICK_TAP_MS 160
-#define COMBO_TIMEOUT_MS 40
-#define COMBO_REQUIRE_PRIOR_IDLE_MS 75
+#define COMBO_TIMEOUT_MS 30
+#define COMBO_REQUIRE_PRIOR_IDLE_MS 80
 
 / {
     hml: homerow_mods_left {
@@ -380,7 +380,7 @@
             bindings = <
 &caps_word              &kp Q         &kp W            &kp F                &kp P                  &kp B                                &none         &kp J                  &kp L                      &kp U                   &kp Y            &kp LBKT      &kp SQT
 &skq LSHFT              &hml LCTRL A  &hml LEFT_ALT R  &hml LEFT_GUI S      &hml LEFT_SHIFT T      &kp G                         &none  &none  &none  &kp M                  &hmr LSHIFT N              &hmr LGUI E             &hmr LEFT_ALT I  &hmr LCTRL O  &kp SEMI
-&mt LEFT_GUI BACKSLASH  &kp Z         &kp X            &kp C                &kp D                  &kp V                &none           &none         &kp K                  &kp H                      &kp COMMA               &kp DOT          &kp FSLH      &exlamation_question_mark
+&kp BACKSLASH           &kp Z         &kp X            &kp C                &kp D                  &kp V                &none           &none         &kp K                  &kp H                      &kp COMMA               &kp DOT          &kp FSLH      &exlamation_question_mark
                                                        &thumb_layers 5 ESC  &thumb_layers 1 SPACE  &thumb_layers 4 TAB                                &thumb_layers 3 ENTER  &thumb_layers 2 BACKSPACE  &thumb_layers 6 DELETE
             >;
         };
